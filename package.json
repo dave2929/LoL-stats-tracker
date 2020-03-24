@@ -1,0 +1,27 @@
+{
+  "name": "lol-tracker",
+  "version": "1.0.0",
+  "description": "League of Legends stats tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "David",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "vue-router": "^3.1.6",
+    "vue-toasted": "^1.1.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
