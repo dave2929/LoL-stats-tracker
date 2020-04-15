@@ -6,7 +6,7 @@ This is a sample project containing some front-end and back-end codes.
 
 Visit https://developer.riotgames.com/ to learn more about APIs, DOCs, and policies.
 
-
+---
 
 #### Why am I creating this website?
 
@@ -44,11 +44,13 @@ You will be able to choose your favorite splash art image as the website's backg
 * All players with ranked elos and current playing champion's mastery
 * Can click on each player to get his/her profile(summary+match history)
 
+---
+
 #### Future updates and features
-I am trying to fix machine learning or use other algorithm to predict future games. I am also planning on creating a countermatchup page to help summoners cleverly choose their champions.
+I am trying to fix machine learning or use other algorithm to predict future games. I am also planning on creating a counter matchup page to help summoners cleverly choose their champions.
 For match analysis part, I will expand the analysis to each *time stamp* instead of the whole match. I am planning to show if a player is losing lane or winning lane. It will also show if player recovers back after losing lane or  wastes advantages after winning lanes.
 If possible, I will use machine learning to analyze if player is easily camped and killed by jungler.
 For in game spectator part, I will try to add a feature to detect any potential duos and trios
 
-I also have a vague idea on determining a jungler's ganking routes. 
-  
+*I also have a vague idea on determining a jungler's ganking routes.*
+
