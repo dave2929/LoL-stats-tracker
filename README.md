@@ -28,7 +28,7 @@ Or you are one of them:
 #### :clap::clap::clap: Introducing new stats look up website :clap::clap::clap:
 
 ##### Customized background images
-You will be able to choose your favorite splash art image as the website's background image.
+* You will be able to choose your favorite splash art image as the website's background image.
 
 ##### Detailed analysis for each game
 * a bunch of stats for each matchup(e.x. kp, kda, cs, dmg)
@@ -47,10 +47,14 @@ You will be able to choose your favorite splash art image as the website's backg
 ---
 
 #### Future updates and features
-I am trying to fix machine learning or use other algorithm to predict future games. I am also planning on creating a counter matchup page to help summoners cleverly choose their champions.
+I am trying to fix machine learning or use other algorithm to predict future games. I am also planning on creating a counter matchup page to help summoners cleverly choose their champions. I will use op.gg apis and my own algorithm to select top three counter champions.
+
 For match analysis part, I will expand the analysis to each *time stamp* instead of the whole match. I am planning to show if a player is losing lane or winning lane. It will also show if player recovers back after losing lane or  wastes advantages after winning lanes.
 If possible, I will use machine learning to analyze if player is easily camped and killed by jungler.
+
 For in game spectator part, I will try to add a feature to detect any potential duos and trios
 
-*I also have a vague idea on determining a jungler's ganking routes.*
+
+Vague ideas(possible in future updates):
+* *determining a jungler's ganking routes.*
 
